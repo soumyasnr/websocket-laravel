@@ -38,7 +38,8 @@ class FormSubmitted implements ShouldBroadcast
 
     public function broadcastAs()
     {
-        return 'form-submitted';
+        // return 'form-submitted';
+        return 'client-filter-change';
     }
 
 }

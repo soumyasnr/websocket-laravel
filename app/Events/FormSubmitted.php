@@ -33,7 +33,7 @@ class FormSubmitted implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-        return new Channel('my-channel');
+        return new PresenceChannel('presence-my-channel');
     }
 
     public function broadcastAs()
